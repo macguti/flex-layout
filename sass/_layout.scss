@@ -39,6 +39,7 @@ min-height: 50rem;
 }
 
 .detail{
+font-size: 1.4rem;
 display:flex;
 padding: 4.5rem;
 background-color: var(--color-Grey-light-1);
@@ -46,7 +47,7 @@ border-bottom:var(--line);
 
 }
 .description{
-font-size: 1.4rem;
+
 background-color: #fff;
 box-shadow: var(--shadow-light);
 padding:3rem;
@@ -55,6 +56,10 @@ margin-right: 4.5rem;
 
 }
 .user-reviews{
-background-color: yellowgreen;
+
 flex:1;
+
+display:flex;
+align-items: center;
+flex-direction: column;
 }
